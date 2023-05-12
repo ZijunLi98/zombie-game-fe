@@ -1,0 +1,23 @@
+.inputLabel {
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+
+  span {
+    color: rgb(217, 80, 76);
+  }
+}
+
+.inputValue {
+  // border: none;
+  border-radius: 3px;
+  border: none;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding: 1rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.inputValue:focus {
+  outline: none;
+}

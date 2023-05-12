@@ -1,0 +1,70 @@
+$main-color: #37b24d;
+$main-gray: rgb(209, 209, 209);
+
+.titleContainer {
+  margin-bottom: 3.2rem;
+}
+
+.submitForm {
+  display: flex;
+  flex-direction: column;
+
+  .submitBtn {
+    background-color: $main-color;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    height: 4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    transition: background-color 0.2s;
+  }
+
+  .submitBtn:disabled {
+    background-color: $main-gray;
+  }
+
+  .submitContainer {
+    width: 100%;
+    text-align: left;
+
+    .fieldWrapper {
+      display: flex;
+
+      flex-direction: column;
+      margin-bottom: 2rem;
+
+      .fieldInnerContainer {
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+      }
+
+      label {
+        margin-bottom: 0.8rem;
+        font-weight: bold;
+
+        span {
+          color: rgb(217, 80, 76);
+        }
+      }
+
+      input {
+        // border: none;
+        border-radius: 3px;
+        border: none;
+        border-bottom: 1px solid rgb(209, 209, 209);
+        padding: 1rem;
+        height: 4rem;
+        font-size: 1.4rem;
+        width: 100%;
+      }
+
+      input:focus {
+        outline: none;
+      }
+    }
+  }
+}

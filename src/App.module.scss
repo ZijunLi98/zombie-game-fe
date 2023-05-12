@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.PageWrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  height: 100%;
+  padding: 6rem 3rem;
+  position: relative;
+}
